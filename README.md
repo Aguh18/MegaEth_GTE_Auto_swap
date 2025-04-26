@@ -1,7 +1,7 @@
 # MegaEth GTE Auto Swap Bot
 
 ## Overview
-The **MegaEth GTE Auto Swap Bot** is a Python-based automation tool designed to interact with the MegaEth protocol on the MegaEth testnet. It automates back-and-forth token swaps between ETH and other configured tokens (e.g., GTE tokens) on a decentralized exchange (DEX). The bot supports one-time or daily automated swaps with customizable swap percentages and counts, performing swaps in both directions (e.g., GTE to ETH and ETH back to GTE) within each cycle. It includes balance monitoring and logging for transparency.
+A Python-based tool for automating back-and-forth token swaps (e.g., to/from ETH) within GTE on the MegaEth testnet. Supports one-time or daily swaps, customizable swap counts and percentages, and balance monitoring. Configured via .env using MegaEth faucet for testnet ETH. Designed for testing in the MegaEth ecosystem.
 
 ---
 
