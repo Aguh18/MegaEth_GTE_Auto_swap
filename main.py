@@ -9,11 +9,15 @@ from utils.utils import swap
 from utils.utils import check_token_balance
 from utils.utils import wait_until_next_day
 from dotenv import load_dotenv
+from display import appearance
 import os
 
 load_dotenv()
 
 def main():
+    
+    print(appearance.ASCII_ART)
+    print(appearance.CREDIT)
     
     PRIVATE_KEY = os.getenv("PRIVATE_KEY") 
     account = Account.from_key('0x' + PRIVATE_KEY)
